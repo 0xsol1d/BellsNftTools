@@ -14,7 +14,6 @@
     "build": "node index.js",
     "generate": "node index.js"
   },
-  "author": "Daniel Eugene Botha (HashLips)",
   "license": "MIT",
   "dependencies": {
     "canvas": "^2.8.0",

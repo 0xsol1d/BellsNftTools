@@ -1,10 +1,12 @@
 # Welcome to the Bellscoin NFT Tools
 
-This Bellscoin-specific toolset for creating and inscribing an NFT collection is a modified and bundled version of the following scripts:
+This Bellscoin-specific toolset for creating and inscribing an NFT collection is a bundle of modified versions of the following scripts:
 
-[📺 HashLipsEngine](https://github.com/HashLips/hashlips_art_engine)
-[📺 Bellinals](https://github.com/martinseeger2002/Bellinals)
-[📺 Additional](https://github.com/martinseeger2002/dogcoin_ordinal_auto_inscriber)
+- [HashLipsEngine](https://github.com/HashLips/hashlips_art_engine)
+- [Bellinals](https://github.com/martinseeger2002/Bellinals)
+- [Additional](https://github.com/martinseeger2002/dogcoin_ordinal_auto_inscriber)
+
+plus some orginal content as the gif creation, the rarity calculation and the validation script.
 
 ## Installation
 
