@@ -234,6 +234,8 @@ You will now receive a `rarity.json` file in `build` order, which determines a t
 
 For various reasons, two additional tools could be helpful:
 
+- `combineIdsWithRarity.js` copies all inscription IDs from the inscription.json to the correlating fields into the rarity.json file.
+
 - `fileRenamer.js` helps to get a folder full of files into the correct naming format for the `autoInscriber`, e.g. if the collcetion was not created with the tool.
 
 - `getGenesis.js` helps to find the id of a certain inscription if you only have the tx id of the utxo that holds the inscription e.g. after a transfer or so.
