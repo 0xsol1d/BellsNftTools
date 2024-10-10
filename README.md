@@ -164,6 +164,8 @@ To create only the GIFs if, for example, an error has occurred or you notice tha
 node index.js --onlygif 8 200
 ```
 
+To convert your GIFs into smaller WEBP files use this [convert-gif-to-webp](https://github.com/0xsol1d/convert-gif-to-webp) script.
+
 ## Inscribing the collection
 
 
