@@ -195,8 +195,6 @@ const createDna = (_layers) => {
 };
 
 const writeMetaData = (_data) => {
-  if (shuffleLayerConfigurations)
-    _data.sort((a, b) => a.edition - b.edition);
   fs.writeFileSync(`${buildDir}/inscriptions.json`, _data);
 };
 
