@@ -237,3 +237,5 @@ For various reasons, two additional tools could be helpful:
 - `getGenesis.js` helps to find the id of a certain inscription if you only have the tx id of the utxo that holds the inscription e.g. after a transfer or so.
 
 - `validateInscriptions.js` processes inscriptions to validate ownership and check holdings against a provided account, using API calls to fetch and store results in JSON files. You just need to provide the same address as in the `autoInscriber.js` script.
+
+- `sortInscriptions.js` helps you to sort sort the inscriptions.json file in a ascending order, so the inscripting process will set the ids at the proper place.
