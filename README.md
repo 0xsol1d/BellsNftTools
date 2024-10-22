@@ -238,4 +238,4 @@ For various reasons, two additional tools could be helpful:
 
 - `validateInscriptions.js` processes inscriptions to validate ownership and check holdings against a provided account, using API calls to fetch and store results in JSON files. You just need to provide the same address as in the `autoInscriber.js` script.
 
-- `sortInscriptions.js` helps you to sort sort the inscriptions.json file in a ascending order, so the inscripting process will set the ids at the proper place.
+- `sortInscriptions.js` helps you to sort sort the inscriptions.json file in a ascending order, so the inscripting process will set the ids at the proper place when you used "ShuffleLayerConfigurations".
