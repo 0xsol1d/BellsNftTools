@@ -195,7 +195,9 @@ const createDna = (_layers) => {
 };
 
 const writeMetaData = (_data) => {
-  fs.writeFileSync(`${buildDir}/inscriptions.json`, _data);
+  if (shuffleLayerConfigurations)
+    _data.sort((a, b) => a.edition - b.edition);
+  fs.writeFileSync(`${buildDir}/inscriptions.json`, JSON.stringify(_data, null, 2));
 };
 
 const saveMetaDataSingleFile = (_editionCount) => {
@@ -302,7 +304,7 @@ const startCreating = async (makeGifs, frames, delay) => {
     }
     layerConfigIndex++;
   }
-  writeMetaData(JSON.stringify(metadataList, null, 2));
+  writeMetaData(metadataList);
 
   console.log("");
   console.log("...success");
