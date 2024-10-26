@@ -112,8 +112,8 @@ const addMetadata = (_dna, _edition, type) => {
     id: "",
     edition: _edition,
     meta: {
-      //name: `${metadata.namePrefix} #${_edition}`,
-      name: `${randomFirstName} ${randomLastName}`,
+      name: `${metadata.namePrefix} #${_edition}`,
+      //name: `${randomFirstName} ${randomLastName}`,
       attributes: attributesList,
     },
   };
