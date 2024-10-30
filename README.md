@@ -1,4 +1,4 @@
-# Welcome to the Bellscoin NFT Tools
+# Welcome to the Bellscoin NFT Tools (ALPHA_V0.1)
 
 This is an experimental Bellscoin-specific toolset for creating and inscribing an NFT collection is a bundle of modified versions of the following scripts:
 
