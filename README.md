@@ -1,6 +1,8 @@
 # Welcome to the Bellscoin NFT Tools (ALPHA_V0.1)
 
-This is an experimental Bellscoin-specific toolset for creating and inscribing an NFT collection is a bundle of modified versions of the following scripts:
+This is an experimental Bellscoin-specific toolset for creating and inscribing an NFT collection. As it is still experimental it can happen that sometimes an intervention is necessary, but there are some helper scripts available, which simplify the understanding of the processes (see below).
+
+It is a bundle of modified versions of the following scripts:
 
 - [HashLipsEngine](https://github.com/HashLips/hashlips_art_engine)
 - [Bellinals](https://github.com/martinseeger2002/Bellinals)
