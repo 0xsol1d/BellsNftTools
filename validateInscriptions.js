@@ -22,8 +22,8 @@ const writeHoldings = (data) => {
 
 const fetchOwnerInfo = async (id) => {
   try {
-    const response = await axios.get(
-      `https://history.nintondo.io/api/pub/${id}/owner`
+    const response = await axios.get(         
+      `https://api.nintondo.io/api/location/${id}`   //https://content.nintondo.io/api/pub/${id}/info
     );
     return response.data;
   } catch (error) {
@@ -36,7 +36,7 @@ const fetchOwnerInfo = async (id) => {
 
 const fetchOwnerInscriptions = async (account, page) => {
   const response = await axios.get(
-    `https://content.nintondo.io/api/pub/search?page_size=50&page=${page}&account=${account}`
+    `https://content.nintondo.io/api/pub/search?page_size=60&page=${page}&account=${account}`
   );
   return response.data;
 };
